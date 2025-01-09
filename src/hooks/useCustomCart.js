@@ -8,6 +8,7 @@ const useCustomCart = () => {
 
   const refreshCart = () => {
     dispatch(getCartItemsAsync());
+    //안녕
   };
 
   const changeCart = (param) => {
